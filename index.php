@@ -1,6 +1,6 @@
 <HTML>
 <head>
-    <title>Standard 1.0.1 </title>
+    <title>PhpStorm</title>
 </head>
 <body>
 <pre>
@@ -13,7 +13,6 @@ $a = new config();
 
 
 
-print_r($a->test());
 
 ?>
     </pre>
