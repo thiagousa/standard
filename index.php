@@ -7,11 +7,16 @@
 <?php
 require_once "vendor/autoload.php";
 
-use app\database\config;
+use app\database\Conn;
 
-$a = new config();
+$pdo = new Conn();
+
+//$pdo = (new Conn())->conn();
+
+print_r($pdo->conn());
 
 
+print_r($pdo->close());
 
 
 ?>

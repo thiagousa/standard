@@ -21,7 +21,7 @@ class ComposerStaticInitc11b9ab16240b2430cfbfb97fd85f066
     );
 
     public static $classMap = array (
-        'app\\database\\Config' => __DIR__ . '/../..' . '/app/database/config.php',
+        'app\\database\\Conn' => __DIR__ . '/../..' . '/app/database/conn.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

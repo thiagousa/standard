@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'app\\database\\Config' => $baseDir . '/app/database/config.php',
+    'app\\database\\Conn' => $baseDir . '/app/database/conn.php',
 );
